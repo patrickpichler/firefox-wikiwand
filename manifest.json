@@ -1,0 +1,17 @@
+{
+  "description": "Demonstrating webRequest",
+  "manifest_version": 2,
+  "name": "webRequest-demo",
+  "version": "1.0",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.wikipedia.org/wiki/*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+  
+}
